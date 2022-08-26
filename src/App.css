@@ -1,9 +1,16 @@
 /* ! First Week of CSS */
 :root {
-  --background: #2323323;
+  --background: #232323;
   --lift: #2c2c2c;
   --faded: #838383;
-  --accent: #04a777;
+  /* * Pick an accent color below by commenting one in, and commenting the others out */
+  /* --accent: #EE6352; */
+  /* --accent: #25AAE1; */
+  /* --accent: #FB5607; */
+  /* --accent: #FF006E; */
+  /* --accent: #8338EC; */
+  --accent: #04A777;
+  /* --accent: #FFA620; */
 }
 
 body {
@@ -14,8 +21,8 @@ body {
 }
 
 header {
-  min-height: 75px;
-  min-width: 100vw;
+  height: 75px;
+  width: 100vw;
   background-color: var(--accent);
   padding: 0px 35px;
   color: white;
@@ -33,7 +40,7 @@ header {
 }
 
 .task-form {
-  background: var(--life);
+  background: var(--lift);
   width: 300px;
   padding: 15px;
   display: flex;
@@ -75,13 +82,14 @@ button {
 .small-btn {
   width: 40px;
   height: 40px;
+
 }
 
 .item-card {
   display: flex;
   padding: 15px;
   box-sizing: border-box;
-  box-shadow: 0px 3px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.7);
   width: 100%;
   height: fit-content;
   background-color: var(--lift);
